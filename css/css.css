@@ -1,0 +1,137 @@
+*body {
+  margin: 90;
+  padding: 0;
+}
+.Conteudo_geral {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.menu {
+  background-color: #696969;
+  width: 20vw;
+}
+.content {
+  background-color: #fff;
+  width: 80vw;
+}
+
+/* Configurando o MEnu*/
+ul {
+  margin-top: 130px;
+}
+ul li {
+  list-style: none;
+  border-bottom: 2px solid #dcdcdc;
+  margin-left: -40px;
+  display: flex;
+  height: 50px;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16pt;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+ul li img {
+  width: 35px;
+  height: 35px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+}
+.logo {
+  color: #fff;
+  font-size: 17pt;
+  text-decoration: none;
+}
+ul li:hover {
+  background-color: #d3d3d3;
+  color: #000;
+}
+ul li:hover a {
+  color: #000;
+}
+
+/* seção do conteudo index*/
+.visaoGeral {
+  width: 80vw;
+  height: 31.7%;
+  display: flex;
+}
+.content {
+  display: block;
+  /* background-color: rgb(218, 91, 32);*/
+}
+.logout {
+  background-color: #fff;
+  width: 80vw;
+  height: 65px;
+}
+.logout a {
+  float: right;
+  margin-right: 35px;
+}
+
+.img_logout {
+  width: 60px;
+  height: 60px;
+}
+.registoViagem {
+  width: 22vw;
+  height: 25vh;
+  background-color: orange;
+  margin-left: 3vw;
+  margin-top: 4vh;
+  border-radius: 22px 22px;
+}
+.registoPassagem {
+  width: 22vw;
+  height: 25vh;
+  background-color: #9acd32;
+  margin-left: 3.5vw;
+  margin-top: 4vh;
+  border-radius: 22px 22px;
+}
+.registoHospedagem {
+  width: 22vw;
+  height: 25vh;
+  background-color: #87ceeb;
+  margin-left: 3.5vw;
+  margin-top: 4vh;
+  border-radius: 22px 22px;
+}
+.zero {
+  margin-top: 35px;
+  font-size: 40pt;
+  margin-left: 2vw;
+}
+.texto {
+  margin-top: 2vh;
+  font-size: 14pt;
+  margin-left: 2vw;
+}
+.TotalViagem {
+  font-size: 13pt;
+  margin-left: 2vw;
+}
+
+/* Viagens Marcadas Seção*/
+.viagemCliente {
+  width: 80vw;
+  height: 40vh;
+  background-color: red;
+  display: flex;
+}
+.ViagemMarcda {
+  background-color: saddlebrown;
+  width: 35vw;
+  height: 40vh;
+}
+.Cliente {
+  background-color: salmon;
+  width: 35vw;
+  height: 40vh;
+}
